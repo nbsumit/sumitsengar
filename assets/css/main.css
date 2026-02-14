@@ -382,3 +382,156 @@ footer {
     color: var(--text-muted);
     margin-top: 1rem;
 }
+
+@media (max-width:1200px) and (min-width:993px) {
+
+    .nav-bar,
+    .hero-section,
+    .posts {
+        width: 85%;
+    }
+
+    .hero-title {
+        font-size: 6rem;
+    }
+
+    .hero-description {
+        font-size: 1.15rem;
+    }
+
+    .posts-grid {
+        gap: 1.8rem;
+    }
+}
+
+@media (max-width:992px) and (min-width:769px) {
+
+    .nav-bar,
+    .hero-section,
+    .posts {
+        width: 90%;
+    }
+
+    .hero-title {
+        font-size: 5rem;
+        line-height: 1.15;
+    }
+
+    .hero-description {
+        font-size: 1.1rem;
+    }
+
+    .cta {
+        font-size: 1.05rem;
+    }
+
+    .posts-grid {
+        gap: 1.6rem;
+    }
+}
+
+@media (max-width:768px) and (min-width:577px) {
+
+    .nav-bar,
+    .hero-section,
+    .posts {
+        width: 92%;
+    }
+
+    .hero-section {
+        height: auto;
+        padding: 4rem 0;
+    }
+
+    .hero-title {
+        font-size: 4rem;
+        line-height: 1.2;
+    }
+
+    .hero-description {
+        font-size: 1.05rem;
+    }
+
+    .cta {
+        font-size: 1rem;
+    }
+
+    .posts-grid {
+        gap: 1.5rem;
+    }
+
+    .footer-message {
+        font-size: 1.3rem;
+        text-align: center;
+    }
+}
+
+@media (max-width:576px) and (min-width:301px) {
+
+    .nav-bar,
+    .hero-section,
+    .posts {
+        width: 100%;
+        padding: 0 1.25rem;
+    }
+
+    .nav-bar {
+        height: 3.5rem;
+    }
+
+    .l-nav a {
+        font-size: 1.3rem;
+    }
+
+    .l-nav span {
+        font-size: 1.75rem;
+        top: -.18rem;
+    }
+
+    .hero-section {
+        height: auto;
+        padding: 4rem 1.25rem;
+    }
+
+    .hero-title {
+        font-size: 3rem;
+        line-height: 1.25;
+    }
+
+    .hero-description {
+        font-size: 1rem;
+    }
+
+    .cta {
+        font-size: .95rem;
+    }
+
+    .posts-title {
+        font-size: 1.25rem;
+    }
+
+    .posts-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .footer-message {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .footer-links a {
+        padding: .85rem;
+        margin: 0 .35rem;
+    }
+
+    .footer-links a svg {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    .footer-copyright {
+        font-size: .9rem;
+        text-align: center;
+    }
+}

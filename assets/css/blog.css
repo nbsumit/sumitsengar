@@ -81,38 +81,82 @@ body,
         border-color .35s ease;
 }
 
-@media (max-width:992px) {
+@media (max-width:1200px) and (min-width:993px) {
+
+    .blog-post {
+        max-width: 680px;
+    }
+
+    .blog-title {
+        font-size: 2.7rem;
+    }
+
+    .blog-content p {
+        font-size: 1.02rem;
+        line-height: 1.95;
+    }
+}
+
+@media (max-width:992px) and (min-width:769px) {
+
+    .blog-post {
+        max-width: 640px;
+    }
+
     .blog-title {
         font-size: 2.4rem;
     }
 
+    .blog-meta {
+        font-size: .8rem;
+    }
+
     .blog-content p {
         font-size: 1rem;
+        line-height: 1.9;
+    }
+
+    .blog-content blockquote {
+        font-size: 1.25rem;
+        margin: 2.5rem 0;
     }
 }
 
-@media (max-width:768px) {
+@media (max-width:768px) and (min-width:577px) {
+
     .blog-post {
         max-width: 92%;
     }
 
     .blog-title {
         font-size: 2.1rem;
+        line-height: 1.2;
+    }
+
+    .blog-meta {
+        font-size: .78rem;
+        row-gap: .4rem;
     }
 
     .blog-content p {
         font-size: .98rem;
-        line-height: 1.9;
+        line-height: 1.85;
     }
 
     .blog-content blockquote {
-        font-size: 1.2rem;
-        padding-left: 1.2rem;
+        font-size: 1.15rem;
+        padding-left: 1.25rem;
+    }
+
+    .blog-image {
+        margin: 2.5rem 0;
     }
 }
 
-@media (max-width:576px) {
+@media (max-width:576px) and (min-width:301px) {
+
     .blog-post {
+        max-width: 100%;
         padding: 0 1.2rem;
         margin: 4rem auto;
     }
@@ -124,12 +168,13 @@ body,
 
     .blog-meta {
         font-size: .75rem;
+        gap: .4rem;
         margin-bottom: 2.2rem;
     }
 
     .blog-content p {
         font-size: .95rem;
-        line-height: 1.85;
+        line-height: 1.8;
     }
 
     .blog-content blockquote {
