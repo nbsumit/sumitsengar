@@ -439,7 +439,6 @@ footer {
     }
 
     .hero-section {
-        height: auto;
         padding: 4rem 0;
     }
 
@@ -489,7 +488,7 @@ footer {
     }
 
     .hero-section {
-        height: auto;
+        height: calc(100vh - 3.5rem);
         padding: 4rem 1.25rem;
     }
 
